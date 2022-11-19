@@ -2,6 +2,7 @@
 // выдавать название дня недели по заданному номеру.
 // 3 -> Среда
 // 5 -> Пятница
+
 // V 1.0
 // Console.WriteLine("Введите число от 1 до 7 ");
 // int num = Convert.ToInt32(Console.ReadLine());
@@ -18,8 +19,9 @@
 // 	case 5: Console.WriteLine($"Пятница"); break;
 // 	case 6: Console.WriteLine($"Суббота"); break;
 // 	case 7: Console.WriteLine($"Воскресенье"); break;
-// 	default: Console.WriteLine("Число больше 7 или меньше 1"); break;
+// 	default: Console.WriteLine("Число больше 7 или меньше 1"); break;  // Семинар 1 time 1:50 про default
 // }
+
 //V 2.0 else if
 // Console.WriteLine("Введите число от 1 до 7 ");
 // int num = Convert.ToInt32(Console.ReadLine());
@@ -43,3 +45,4 @@ if(num == 5) {Console.WriteLine($"Пятница");}
 if(num == 6) {Console.WriteLine($"Суббота");}
 if(num == 7) {Console.WriteLine($"Воскресенье");}
 else{Console.WriteLine("Число больше 7 или меньше 1");}
+
