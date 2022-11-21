@@ -4,8 +4,9 @@
 // -4, 16 -> да
 // 25, 5 -> да
 // 8,9 -> нет
-System.Console.WriteLine("Введите два числа");
+System.Console.WriteLine("Введите первое число: ");
 int num1 = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Введите второе число: ");
 int num2 = int.Parse(Console.ReadLine());
 int max = num1;
 int min = num2;
@@ -14,7 +15,7 @@ if (max < min)
                max = num2;
                min = num1;
 }
-if (max == min*min)
+if (max == Math.Pow(min, 2))//(max == min*min)
 {
                Console.WriteLine($"Число {max} является квадратом числа {min}");     
 }
