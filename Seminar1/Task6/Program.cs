@@ -19,17 +19,27 @@
 //  Console.WriteLine(num);
 //****************************************************
 // V 2.0
-Console.WriteLine("Введите положительное число N");
+// Console.WriteLine("Введите положительное число N");
+//  int num = Convert.ToInt32(Console.ReadLine());
+//  if(num < 0){
+//                Console.WriteLine("Число отрицательное");
+// } 
+//  else{
+//                int num_minus = -num;
+//                while (num_minus != num)
+//                {
+//                               Console.Write(num_minus + ", ");
+//                               num_minus++; 
+//                }
+//                Console.WriteLine(num);
+//  }
+
+ // V 3.0
+ Console.WriteLine("Введите положительное число N");
  int num = Convert.ToInt32(Console.ReadLine());
- if(num < 0){
-               Console.WriteLine("Число отрицательное");
-} 
- else{
-               int num_minus = -num;
-               while (num_minus != num)
-               {
-                              Console.Write(num_minus + ", ");
-                              num_minus++; 
-               }
-               Console.WriteLine(num);
+ int num_minus = -num;
+
+ for (int i = num ; i < num; i++)
+ {
+               Console.Write(num_minus + ", ");
  }
